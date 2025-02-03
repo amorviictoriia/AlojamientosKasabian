@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alojamiento Turístico Kasabian</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        section {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alojamiento Turístico "Kasabian"</h1>
+        <p>¡Ven y disfruta de la tranquilidad de un lugar único!</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section id="inicio">
+            <h2>Bienvenidos</h2>
+            <p>En el Alojamiento Kasabian te ofrecemos una experiencia única con habitaciones cómodas y servicios pensados para tu comodidad. Contamos con 4 pisos, cada uno con un ambiente acogedor y relajante, perfecto para tus escapadas turísticas.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Habitaciones cómodas en 4 pisos</li>
+                <li>Desayuno buffet incluido</li>
+                <li>Wi-Fi gratuito en todas las instalaciones</li>
+                <li>Servicio de transporte al aeropuerto</li>
+                <li>Atención personalizada para tus necesidades</li>
+            </ul>
+        </section>
+
+        <section id="galeria" class="gallery">
+            <h2>Galería</h2>
+            <img src="imagen1.jpg" alt="Vista del alojamiento Kasabian">
+            <img src="imagen2.jpg" alt="Habitación en el primer piso">
+            <img src="imagen3.jpg" alt="Entrada al Alojamiento Kasabian">
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información o reservas, no dudes en ponerte en contacto con nosotros:</p>
+            <p>Email: contacto@kasabian-alojamiento.com</p>
+            <p>Teléfono: +123 456 789</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Alojamiento Turístico "Kasabian". Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
